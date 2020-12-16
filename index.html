@@ -4,7 +4,8 @@
   <title>Ruth Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" href="mystyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -12,13 +13,13 @@
 </head>
 
 
-<body>    
-  <div class="container ">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">TENTANG TELKOM</a>
-      </li>
-      <li class="nav-item">
+<body>   
+    <div class="container">
+      <ul class="nav">
+           <li class="nav-item">
+            <a class="nav-link" href="#">TENTANG TELKOM</a>
+          </li>
+          <li class="nav-item">
         <a class="nav-link" href="#">HOME SERVICE</a>
       </li>
       <li class="nav-item">
@@ -26,8 +27,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">WHOLESALE</a>
-      </li>
-    
+      </li>  
         <form class="form-inline ml-auto">
           <input class="form-group box-search" type="text"  placeholder="Cari" aria-label="Cari">
           <div class="dropdown">
@@ -37,73 +37,37 @@
             </span>
           </div>
         </form>
-    </ul> 
-   </div>
+      </ul> 
+    </div>
+   
 
-   <div class="container ">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">WHOLESALE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Network Infra Product & Solution</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Traffic Product & Solution</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">ENTERPRISE</a>
-      </li>
-      <li class="nav-item">
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Saya Tertarik</a>
-              <a class="dropdown-item" href="#">Kunjungi MyCarrier</a>
-            </div>
-        </div>
-      </li>
-    </ul>
-   </div>
-
-  
-   <div id="demo" class="carousel slide" data-ride="carousel">
-
-    <!-- Indicators -->
+    <!--membuat image slideshow-->
+  <div class="container-fluid">
+   <div id="demo" class="carousel slide" data-ride="carousel"> 
     <ul class="carousel-indicators">
+      
       <li data-target="#demo" data-slide-to="0" class="active"></li>
       <li data-target="#demo" data-slide-to="1"></li>
       <li data-target="#demo" data-slide-to="2"></li>
       <li data-target="#demo" data-slide-to="3"></li>
       <li data-target="#demo" data-slide-to="4"></li>
     </ul>
-    
-    <!--Image slide-->
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-    
       <!-- The slideshow -->
     
     <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="cegah korona.png" alt="New York">
+          <img src="cegah korona.png" alt="New York" style="width:100%">
         </div>
         <div class="carousel-item">
-          <img src="telkom_infra_2.jpg" alt="Los Angeles">
+          <img src="telkom_infra_2.jpg" alt="Los Angeles" style="width:100%">
         </div>
         <div class="carousel-item">
-          <img src="telin_1.jpg" alt="Chicago">
+          <img src="telin_1.jpg" alt="Chicago" style="width:100%">
         </div>
         <div class="carousel-item">
-          <img src="social distancing.png" alt="New York">
+          <img src="social distancing.png" alt="New York" style="width:100%">
         </div>
-    </div>
-   
-    
+    </div>  
       <!-- Left and right controls -->
       <a class="carousel-control-prev" href="#demo" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -113,46 +77,161 @@
       </a>
     </div>
    </div>
-  
-  
-   <div class="jumbotron">
-   <div class="row g-0">
-    <div class="col-sm-6 col-md-8">.col-sm-6 .col-md-8</div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
+
+
+   <!--container bawah , membuat berita-->
    
-   <div class="jumbotron">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-4" style="background-color:lavender;">Berita</div>
+     <div id="support">
+      <div class="container"  style="z-index:0">
         <div class="row">
-          <div class="col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-
-        <div class="col-sm-2" style="background-color:lavenderblush;">Ikuti Kami</div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                </div>
-              </div>
- 
-
-        <div class="col-sm-6" style="background-color:lavenderblush;">Hubungi Kami</div>
-        <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 3</h3>        
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
+          <div class="col-md-6 col-xs-12 col-sm-7">
+              <div class="sidebar">
+                  <h3 class="rn_Link">Berita</h3>
       </div>
+
+      <div class="inner" style="margin-top:-17px">
+        <div class="row">
+            <div class="col-md-12">
+                <ul id="listnews">
+
+                    
+
+                    <li>
+                        <a href="/sites/about-telkom/id_ID/news/telkom-tuntaskan-digitalisasi-spbu-di-seluruh-indonesia-1227">
+                            <div class="col-md-12 artikel-box">
+                                <div class="col-md-4 img-box nopad">
+                                    <img src="thumb.jpg" class="null">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="artikel-title" style="color: red !important; margin-bottom: 5px">2020-12-10</p>
+                                    <p class="artikel-title line-clamp line-clamp-2">Telkom Tuntaskan Digitalisasi SPBU di Seluruh Indonesia</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+
+                    <li>
+                        <a href="/sites/about-telkom/id_ID/news/telkom-perkenalkan-bigbox,-solusi-satu-data-indonesia-1225">
+                            <div class="col-md-12 artikel-box">
+                                <div class="col-md-4 img-box nopad">
+                                    <img src="ready.jpg" class="null">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="artikel-title" style="color: red !important; margin-bottom: 5px">2020-12-02</p>
+                                    <p class="artikel-title line-clamp line-clamp-2">Telkom Perkenalkan BigBox, Solusi Satu Data Indonesia</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+
+                    <li>
+                        <a href="/sites/about-telkom/id_ID/news/telkom-dinobatkan-sebagai-best-leader-factory-2020-1223">
+                            <div class="col-md-12 artikel-box">
+                                <div class="col-md-4 img-box nopad">
+                                    <img src="TI.png" class="null">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="artikel-title" style="color: red !important; margin-bottom: 5px">2020-12-01</p>
+                                    <p class="artikel-title line-clamp line-clamp-2">Telkom Dinobatkan Sebagai Best Leader Factory 2020</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>            
+                </ul>
+            </div>
+            <div class="more">
+
+                <a href="/sites/about-telkom/id_ID/page/news-about-telkom">
+                    <b>Berita Lainnya</b>
+                </a>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+ 
+       <script type="text/javascript">
+                    $('#FAQ-menu').click(function() {
+                        if ($("#CMSMFAQ").children().length == 0) {
+                            $("#FAQDiv .rn_Link").each(function(index) {
+                                $("#CMSMFAQ").append('<li><a  class="rn_Link" href="' + $(this).attr("href") + '">' + $(this).text() + '</a></li>')
+                            });
+                        }
+                    });
+                </script>
+                
+      <!--Ikuti Kami-->
+      <div class="col-md-3 col-xs-12 col-sm-5">
+        <div class="sidebar">
+            <h3 class="rn_Link">Ikuti Kami</h3>
+            <div class="inner">
+                <ul>
+                    <li>
+                         <a class="rn_Link" href="https://www.facebook.com/TelkomIndonesia">
+                            <img src="fb-promo-icon.png" style="max-width:16px;max-height:16px" class="promo-icon">
+                                Telkom Indonesia
+                          </a>
+                    </li>
+                      <li>
+                            <a class="rn_Link" href="https://twitter.com/telkomindonesia">
+                                <img src="tw-promo-icon.png" style="max-width:16px;max-height:16px" class="promo-icon">
+                                Telkom Indonesia
+                            </a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a class="rn_Link" href="https://www.youtube.com/c/telkomindonesiaofficial">
+                                <img src="youtube30.png" style="max-width:16px;max-height:16px" class="promo-icon">
+                                Telkom Indonesia Official
+                            </a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a class="rn_Link" href="https://www.instagram.com/telkomindonesia">
+                                <img src="ig-promo-icon-30.png" style="max-width:16px;max-height:16px" class="promo-icon">
+                                Telkom Indonesia
+                            </a>
+                        </li>
+                        
+                        
+                            <li>
+                                <a class="rn_Link" href="https://www.linkedin.com/company/telekomunikasi-indonesia/">
+                                    <img src="LI-In-Bug.png" style="max-width:16px;max-height:16px" class="promo-icon">
+                                    Telkom Indonesia
+                                </a>
+                            </li>            
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Hubungi Kami-->
+    <div class="col-md-3 col-xs-12 col-sm-5">
+      <div class="sidebar">
+          <h3 class="rn_Link">Hubungi Kami</h3>
+          <div class="inner">
+              <ul id="listContactUs">
+                  <li><a class="rn_Link" href="/sites/about-telkom/id_ID/page/kontak-detail">Hubungi Kami</a></li>
+              </ul>
+          </div>
+      </div>  
+  </div>
+
     </div>
   </div>
-    
-    
-    
+</div>
+
+
+
+
+
+  </div>
+  
     </body>
 
 </html>
