@@ -20,3 +20,20 @@ nav-link:hover{
   li{
       list-style-type: none;
   }
+
+  .carrousel-title {
+    text-align: center;
+    font-weight: bold;
+    min-height: 65px;
+    margin-top: 0px;
+}
+
+.jumbotron-footer{
+    background-color:rgb(236, 12, 12);
+}
+
+#footer{
+    min-height: 80px;
+    padding: 10px 0px 0px;
+}
+
