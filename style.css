@@ -1,6 +1,5 @@
 .topnav{
     overflow: hidden;
-    border-bottom:2px solid rgb(218, 217, 217);
 }
 
 .topnav a {
@@ -49,6 +48,10 @@ nav-link:hover{
     font-weight: bold;
     min-height: 65px;
     margin-top: 0px;
+}
+
+table{
+  
 }
 
 
